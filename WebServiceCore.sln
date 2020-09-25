@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2BBD9DA1-0A51-44A1-99D3-2888DCB9B525}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A193CFB-B467-4B43-93DD-2A95F6812186}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebServiceTest", "src\WebServiceTest\WebServiceTest.csproj", "{010C8C8B-CE25-4BB1-8A2C-9A05B2BA350D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{010C8C8B-CE25-4BB1-8A2C-9A05B2BA350D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010C8C8B-CE25-4BB1-8A2C-9A05B2BA350D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010C8C8B-CE25-4BB1-8A2C-9A05B2BA350D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010C8C8B-CE25-4BB1-8A2C-9A05B2BA350D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{010C8C8B-CE25-4BB1-8A2C-9A05B2BA350D} = {0A193CFB-B467-4B43-93DD-2A95F6812186}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59E144FC-A5BF-4E79-9B09-45EAD6CCDB98}
+	EndGlobalSection
+EndGlobal
